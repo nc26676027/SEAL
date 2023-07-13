@@ -9,6 +9,7 @@ TensorCipher::TensorCipher()
 	t_=0;
     p_=0;
 }
+
 TensorCipher::TensorCipher(int logn, int k, int h, int w, int c, int t, int p, vector<double> data, Encryptor &encryptor, CKKSEncoder &encoder, int logp)
 {
     if(k != 1) throw std::invalid_argument("supported k is only 1 right now");

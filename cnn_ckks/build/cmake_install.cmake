@@ -1,4 +1,4 @@
-# Install script for directory: /home/eslee3209/FHE-MP-CNN/cnn_ckks
+# Install script for directory: /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,24 +37,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/eslee3209/FHE-MP-CNN/cnn_ckks/build/common/cmake_install.cmake")
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/eslee3209/FHE-MP-CNN/cnn_ckks/build/cpu-ckks/single-key/cnn/cmake_install.cmake")
+  include("/usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/build/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/eslee3209/FHE-MP-CNN/cnn_ckks/build/cpu-ckks/single-key/comp/cmake_install.cmake")
+  include("/usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/build/cpu-ckks/single-key/cnn/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/eslee3209/FHE-MP-CNN/cnn_ckks/build/cpu-ckks/single-key/ckks_bootstrapping/cmake_install.cmake")
+  include("/usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/build/cpu-ckks/single-key/comp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/build/cpu-ckks/single-key/ckks_bootstrapping/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eslee3209/FHE-MP-CNN/cnn_ckks/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

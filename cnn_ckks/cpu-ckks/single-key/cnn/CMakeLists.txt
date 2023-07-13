@@ -2,6 +2,7 @@ message(STATUS "include cnn directory")
 
 # Source files in this directory
 set(CNN_SOURCE_FILES ${CNN_SOURCE_FILES}
+	${CMAKE_CURRENT_LIST_DIR}/cnn_plain.cpp
 	${CMAKE_CURRENT_LIST_DIR}/cnn_seal.cpp
 	${CMAKE_CURRENT_LIST_DIR}/infer_seal.cpp
 )

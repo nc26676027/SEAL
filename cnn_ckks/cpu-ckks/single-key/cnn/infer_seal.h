@@ -7,6 +7,7 @@
 #include "program.h"
 #include "Bootstrapper.h"
 #include "cnn_seal.h"
+#include "cnn_plain.h"
 #include <omp.h>
 #include <NTL/RR.h>
 #include <fstream>

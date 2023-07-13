@@ -1,4 +1,4 @@
-# Install script for directory: /home/eslee3209/FHE-MP-CNN/cnn_ckks/common
+# Install script for directory: /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,10 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 

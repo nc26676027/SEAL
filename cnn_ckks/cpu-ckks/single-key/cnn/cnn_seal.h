@@ -31,6 +31,7 @@ private:
 
 public:
 	TensorCipher();
+	TensorCipher(int logn, int k, int h, int w, int c, int t, int p, vector<double> data, int logp); 	// data vector contains hxwxc real numbers. 
 	TensorCipher(int logn, int k, int h, int w, int c, int t, int p, vector<double> data, Encryptor &encryptor, CKKSEncoder &encoder, int logp); 	// data vector contains hxwxc real numbers. 
 	TensorCipher(int logn, int k, int h, int w, int c, int t, int p, Ciphertext cipher);
 	int k() const;
