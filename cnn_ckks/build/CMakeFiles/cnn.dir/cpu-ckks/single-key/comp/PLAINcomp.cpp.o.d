@@ -1,8 +1,9 @@
-CMakeFiles/cnn.dir/cpu-ckks/single-key/comp/PLAINcomp.cpp.o: \
- /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/cpu-ckks/single-key/comp/PLAINcomp.cpp \
+CMakeFiles/cnn.dir/cpu-ckks/single-key/comp/plaincomp.cpp.o: \
+ /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/cpu-ckks/single-key/comp/plaincomp.cpp \
  /usr/include/stdc-predef.h \
- /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/cpu-ckks/single-key/comp/PLAINcomp.h \
- /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/cpu-ckks/single-key/comp/SEALfunc.h \
+ /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/cpu-ckks/single-key/comp/plaincomp.h \
+ /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/cpu-ckks/single-key/comp/plainfunc.h \
+ /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/common/func.h \
  /usr/local/include/SEAL-3.6/seal/seal.h \
  /usr/local/include/SEAL-3.6/seal/batchencoder.h \
  /usr/local/include/SEAL-3.6/seal/context.h \
@@ -344,7 +345,6 @@ CMakeFiles/cnn.dir/cpu-ckks/single-key/comp/PLAINcomp.cpp.o: \
  /usr/local/include/SEAL-3.6/seal/keygenerator.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/omp.h \
  /usr/local/include/SEAL-3.6/seal/randomtostd.h \
- /usr0/home/ejchen/code/fhe/arch/FHE-MP-CNN/cnn_ckks/common/func.h \
  /usr/include/c++/9/fstream /usr/include/c++/9/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \
